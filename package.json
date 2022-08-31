@@ -6,6 +6,7 @@
     "build:all": "npx lerna run build",
     "run:remixapp": "npx lerna run dev --scope=remixapp",
     "test:all": "npx lerna run test",
+    "version": "lerna version --no-private",
     "publish:all": "npx lerna publish --no-private",
     "publish:all:private": "npx lerna publish"
   },

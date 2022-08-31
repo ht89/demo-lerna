@@ -3,12 +3,12 @@
   "private": true,
   "scripts": {
     "graph": "npx nx graph",
-    "build:all": "npx lerna run build",
+    "build": "npx lerna run build",
     "run:remixapp": "npx lerna run dev --scope=remixapp",
-    "test:all": "npx lerna run test",
-    "version:all": "lerna version --no-private",
-    "publish:all": "npx lerna publish --no-private",
-    "publish:all:private": "npx lerna publish"
+    "test": "npx lerna run test",
+    "version": "lerna version --no-private",
+    "publish": "npx lerna publish --no-private",
+    "publish:private": "npx lerna publish"
   },
   "devDependencies": {
     "lerna": "^5.4.3",

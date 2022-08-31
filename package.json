@@ -5,6 +5,8 @@
     "graph": "npx nx graph",
     "build": "npx lerna run build",
     "run:remixapp": "npx lerna run dev --scope=remixapp",
+    "run:header": "npx lerna run dev --scope=header",
+    "run:footer": "npx lerna run dev --scope=footer",
     "test": "npx lerna run test",
     "set-version": "npx lerna version --no-private",
     "publish": "npx lerna publish --no-private"

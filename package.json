@@ -8,6 +8,9 @@
     "run:header": "npx lerna run dev --scope=header",
     "run:footer": "npx lerna run dev --scope=footer",
     "test": "npx lerna run test",
+    "test:remixapp": "npx lerna run test --scope=remixapp",
+    "test:header": "npx lerna run test --scope=header",
+    "test:footer": "npx lerna run test --scope=footer",
     "set-version": "npx lerna version --no-private",
     "publish": "npx lerna publish --no-private"
   },

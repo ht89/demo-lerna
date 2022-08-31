@@ -6,8 +6,8 @@
     "build:all": "npx lerna run build",
     "run:remixapp": "npx lerna run dev --scope=remixapp",
     "test:all": "npx lerna run test",
-    "publish:all:private": "npx lerna publish",
-    "publish:all:public": "npx lerna publish --no-private"
+    "publish:all": "npx lerna publish --no-private",
+    "publish:all:private": "npx lerna publish"
   },
   "devDependencies": {
     "lerna": "^5.4.3",

@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     branches:
-      - prelerna
+      - main
   pull_request:
 
 jobs:
-  prelerna:
+  main:
     name: Nx Cloud - Main Job
     uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.6
     with:

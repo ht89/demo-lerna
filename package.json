@@ -4,17 +4,22 @@
   "scripts": {
     "graph": "npx nx graph",
     "build": "npx lerna run build",
+    "build:nx-cloud:remixapp": "npx nx run remixapp:build",
     "run:remixapp": "npx lerna run dev --scope=remixapp",
     "run:header": "npx lerna run dev --scope=header",
     "run:footer": "npx lerna run dev --scope=footer",
     "test": "npx lerna run test",
     "test:remixapp": "npx lerna run test --scope=remixapp",
+    "test:remixapp:nx-cloud": "npx nx run remixapp:test",
     "test:header": "npx lerna run test --scope=header",
     "test:footer": "npx lerna run test --scope=footer",
+    "test:affected:since-main": "npx lerna run test --since=origin/main",
     "set-version": "npx lerna version --no-private",
-    "publish": "npx lerna publish --no-private"
+    "publish": "npx lerna publish --no-private",
+    "nx-cache:clear": "npx nx clear-cache"
   },
   "devDependencies": {
+    "@nrwl/nx-cloud": "^14.6.1",
     "lerna": "^5.4.3",
     "nx": "^14.5.10"
   },
